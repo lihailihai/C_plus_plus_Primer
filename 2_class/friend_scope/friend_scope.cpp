@@ -29,6 +29,7 @@ void X::h(){
 }
 
 int main(){
+	X *p = new X();
 	class X item;
 	item.g();
 	item.h();

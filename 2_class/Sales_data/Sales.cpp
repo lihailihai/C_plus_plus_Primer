@@ -3,7 +3,13 @@ int main(){
 	int32_t a = 6;
 	float_t b= 7;
 	cout<<a*b<<endl;
-	
+
+	Sales_data *p = new Sales_data(3,3,3);
+	cout<<"*p"<<*p<<endl;
+
+	Sales_data qq = Sales_data(3,3,3);
+	cout<<"qq"<<qq<<endl;
+		
 	Sales_data test('c');
 	cout<<test<<endl;
 
